@@ -12,7 +12,7 @@ const Greeting = () => {
 
   if (loading) {
     return <h2>Loading...</h2>;
-  };
+  }
 
   return (
     <h1>{message}</h1>
